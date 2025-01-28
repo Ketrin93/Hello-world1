@@ -36,32 +36,33 @@ public class Main {
         int[] runArr = {1, 2, 3};
         for (int e = runArr.length - 1; e >= 0; e--) {
             System.out.print(runArr[e]);
-                System.out.print(",");
-            }
-            double[] startArr = {1.57, 7.654, 9.986};
-            for (int o = startArr.length - 1; o >= 0; o--) {
-                System.out.print(startArr[o]);
-                    System.out.print(",");
-                }
-                int[] blackArr = {58, 61, 65};
-                for (int ca = blackArr.length - 1; ca >= 0; ca--) {
-                    System.out.print(blackArr[ca]);
-                        System.out.print(",");
-                    }
-                    System.out.print("");
-                    System.out.println("Task4");
+            System.out.print(",");
+        }
+        double[] startArr = {1.57, 7.654, 9.986};
+        for (int o = startArr.length - 1; o >= 0; o--) {
+            System.out.print(startArr[o]);
+            System.out.print(",");
+        }
+        int[] blackArr = {58, 61, 65};
+        for (int ca = blackArr.length - 1; ca >= 0; ca--) {
+            System.out.print(blackArr[ca]);
+            System.out.print(",");
+        }
+        System.out.print("");
+        System.out.println("Task4");
 
-                    int[] whiteArr = {1, 2, 3};
-                    for (int g = 0; g < whiteArr.length; g++) {
-                        if (whiteArr[g] % 2 != 0) {
-                            whiteArr[g] += 1;
-                            if (g < whiteArr.length - 1)
-                                System.out.print(whiteArr[g] + " ");
-                        } else
-                            System.out.print(whiteArr[g]);
-                    }
+        int[] whiteArr = {1, 2, 3};
+        for (int g = 0; g < whiteArr.length; g++) {
+            if (whiteArr[g] % 2 != 0) {
+                whiteArr[g]= whiteArr[g] + 1;
+                    System.out.print(whiteArr[g]+ " ");
+                }
+
                 }
             }
+        }
+
+
 
 
 
