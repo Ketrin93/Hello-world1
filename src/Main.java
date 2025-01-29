@@ -17,50 +17,58 @@ public class Main {
         System.out.println(" Задание 2");
 
         int[] classArr = {1, 2, 3};
-        for (int i = 0; i < classArr.length; i++) {
-            System.out.print(classArr[i]);
-            System.out.print(",");
+        {
+            System.out.println(Arrays.toString(classArr));
         }
         double[] numbers1Array1 = {1.57, 7.564, 9.986};
-        for (int c = 0; c < numbers1Array1.length; c++) {
-            System.out.print(numbers1Array1[c]);
-            System.out.print(",");
+        {
+            System.out.print(Arrays.toString(numbers1Array1));
         }
         int[] weightsArray2 = {58, 61, 65};
-        for (int r = 0; r < weightsArray2.length; r++) {
-            System.out.print(weightsArray2[r]);
-            System.out.print(",");
+        {
+            System.out.print(Arrays.toString(weightsArray2));
+
         }
 
         System.out.println("Задание 3");
         int[] runArr = {1, 2, 3};
-        for (int e = runArr.length - 1; e >= 0; e--) {
-            System.out.print(runArr[e]);
-            System.out.print(",");
-        }
-        double[] startArr = {1.57, 7.654, 9.986};
-        for (int o = startArr.length - 1; o >= 0; o--) {
-            System.out.print(startArr[o]);
-            System.out.print(",");
-        }
-        int[] blackArr = {58, 61, 65};
-        for (int ca = blackArr.length - 1; ca >= 0; ca--) {
-            System.out.print(blackArr[ca]);
-            System.out.print(",");
-        }
-        System.out.print("");
-        System.out.println("Task4");
-
-        int[] whiteArr = {1, 2, 3};
-        for (int g = 0; g < whiteArr.length; g++) {
-            if (whiteArr[g] % 2 != 0) {
-                whiteArr[g]= whiteArr[g] + 1;
-                    System.out.print(whiteArr[g]+ " ");
+        for (int i = runArr.length - 1; i >= 0; i--) {
+            System.out.print(runArr[i]);
+            if (i > 0) {
+                System.out.print(",");
+            }
+              }
+        System.out.println();
+            double[] startArr = {1.57, 7.654, 9.986};
+            for (int i1 = startArr.length - 1; i1 >= 0; i1--) {
+                System.out.print(startArr[i1]);
+                if (i1 > 0) {
+                    System.out.print(",");
                 }
+                   }
+            System.out.println();
+                int[] blackArr = {58, 61, 65};
+                for (int i2 = blackArr.length - 1; i2 >= 0; i2--) {
+                    System.out.print(blackArr[i2]);
+                    if (i2 >0) {
+                        System.out.print(",");}
+                    }
+                System.out.println();
+                    System.out.print("");
+                    System.out.println("Task4");
 
+                    int[] whiteArr = {1, 2, 3};
+                    for (int i3 = 0; i3 < whiteArr.length; i3++) {
+                        if (whiteArr[i3] % 2 != 0) {
+                            whiteArr[i3] = whiteArr[i3] + 1;
+                            System.out.print(whiteArr[i3] + " ");
+                        }
+
+                    }
                 }
             }
-        }
+
+
 
 
 
